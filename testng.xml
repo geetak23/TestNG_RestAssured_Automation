@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="Test">
+    <classes>
+     <!--<class name="userapi_tests.TC01_PostUserRequest"/>--> 
+      <class name="userapi_tests.TC02_GetDetailsByUserIdRequest"/>
+      <class name="userapi_tests.TC03_GetDetailsByFirstNameRequest"/>
+      <class name="userapi_tests.TC04_GetAllUsersRequest"/>
+      <class name="userapi_tests.TC05_PutUpdateUsesrRequest"/>
+      <class name="userapi_tests.TC06_DeleteUserByIDRequest"/>
+      <!--<class name="userapi_tests.TC07_DeleteUserbyFirstnameRequest"/>--> 
+      <class name="userapi_tests.TC08_APIChaining"/>
+      <class name="userapi_tests.TC09_DataDrivenAPITesting_Json"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

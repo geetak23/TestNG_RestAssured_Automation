@@ -1,0 +1,49 @@
+[{
+     "userAddress": {
+         "plotNumber": "pl-03",
+         "Street": "Fort Davis",
+         "state": "TX",
+         "Country": "US",
+         "zipCode": "75025"
+     },
+     "user_first_name": "Jsonasd",
+     "user_last_name": "Jsonasd",
+     "user_contact_number": "1578621314",
+     "user_email_id": "Jsonasd@example.com",
+     "BasicAuth": "true",
+     "StatusCode": 201,
+	"GetUserByIdSC":200,
+	"GetUserByFirstNameSC":200,
+	"DeleteUserByIdSC":200
+ },
+    {
+        "userAddress": {
+            "plotNumber": "pl-02",
+            "Street": "Fort Davis cv",
+            "state": "TX",
+            "Country": "US",
+            "zipCode": "75055"
+        },
+        "user_first_name": "JsonFNGKHA",
+        "user_last_name": "JsonFNGKHA",
+        "user_contact_number": "1010121314",
+        "user_email_id": "JsonFNGK@example.com",
+        "BasicAuth": "true",
+        "StatusCode": 409
+    },
+    {
+        "userAddress": {
+            "plotNumber": "pl-03",
+            "Street": "Fort Davis KS",
+            "state": "TX",
+            "Country": "US",
+            "zipCode": "75045"
+        },
+        "user_first_name": "JsonFNGKS12",
+        "user_last_name": "JsonFNGKS",
+        "user_contact_number": "1014561314",
+        "user_email_id": "JsonFNGKS@example.com",
+        "BasicAuth": "true",
+        "StatusCode": 400
+    }
+]

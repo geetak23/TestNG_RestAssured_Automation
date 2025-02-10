@@ -11,7 +11,7 @@ public class TC07_DeleteUserbyFirstnameRequest extends BaseTest {
 	@Test
     public void deleteUserByFirstname() {
 	 
-        String userFirstname = "Geetakqw";
+        String userFirstname = "FNameVzpQr";
         Response response = RestAssured
                 .given()
                     .auth().basic("Numpy@gmail.com", "userapi@2025") // Basic Authentication

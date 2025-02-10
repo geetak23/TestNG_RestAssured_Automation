@@ -13,7 +13,7 @@ public class TC06_DeleteUserByIDRequest extends BaseTest{
 	 @Test
 	    public void deleteUserById() {
 		 
-	        int userId = 18180;
+	        int userId = 20660;
 	        Response response = RestAssured
 	                .given()
 	                    .auth().basic("Numpy@gmail.com", "userapi@2025") // Basic Authentication

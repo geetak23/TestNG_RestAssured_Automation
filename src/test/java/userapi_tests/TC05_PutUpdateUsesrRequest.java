@@ -27,16 +27,16 @@ public class TC05_PutUpdateUsesrRequest extends BaseTest {
 
     
         Map<String, Object> user = new HashMap<>();
-        user.put("user_first_name", "qwer");
+        user.put("user_first_name", generateUniqueString());
         user.put("user_last_name", "asdf");
-        user.put("user_contact_number", "3884804164");
-        user.put("user_email_id", "abc125@gmail.com");
+        user.put("user_contact_number", generateRandomNum());
+        user.put("user_email_id", generateUniqueEmail());
         user.put("userAddress", userAddress);
 
 		
 		Response response = RestAssured.given().auth().basic("Numpy@gmail.com", "userapi@2025")
 				.contentType(ContentType.JSON).body(user) 
-				.when().put("/uap/updateuser/18194").then().extract().response();
+				.when().put("/uap/updateuser/20660").then().extract().response();
 
 	
 		System.out.println("Response Body: " + response.getBody().asString());

@@ -11,7 +11,7 @@ public class TC03_GetDetailsByFirstNameRequest extends BaseTest{
     public void getUserById() {
         
 		// local variables
-        String firstName = "qwer"; // Static User Id 
+        String firstName = "FNameVzpQr"; // Static User Id 
         String endpoint = "/uap/users/username/" + firstName; // appending to endpoint
 
        

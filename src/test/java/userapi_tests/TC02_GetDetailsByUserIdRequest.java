@@ -11,7 +11,7 @@ public class TC02_GetDetailsByUserIdRequest extends BaseTest{
     public void getUserById() {
         
 		// local variables
-        String userId = "18173"; // Static User Id 
+        String userId = "20660"; // Static User Id 
         String endpoint = "/uap/user/" + userId; // appending to endpoint
 
         // Act
